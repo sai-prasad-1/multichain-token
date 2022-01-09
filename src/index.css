@@ -107,6 +107,9 @@ body {
   padding: 3rem;
   margin-top: 5%;
 }
+.box-shadow-1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .land-of-realm{
   height: auto;
   width: 90vw;

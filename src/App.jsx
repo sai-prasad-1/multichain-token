@@ -7,6 +7,7 @@ import Tokenomics from "./components/Tokenomics";
 import Footer from "./components/Footer"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Bridge from "./components/Bridge";
+
 function App() {
   return (
     <div>

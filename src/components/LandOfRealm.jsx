@@ -5,7 +5,10 @@ const LandOfRealm = () => {
   return (
     <div className="land-of-realm  w-full " id="land-of-realm">
       <div className="land-container  flex flex-col md:flex-row pb-[17%] pt-[12%] w-full p-[15%]">
-        <div className="left-content-land text-justify mt-7">
+      <div className="right-content-about mt-[20%] md:mt-[2%] w-[50%] lg:w-[500px]  pt-[10%]  ">
+            <img src={img4} alt="bgimg "className="w-[100%]   a"  />
+        </div>
+        <div className="left-content-land text-justify mt-7 w-[50%]">
           <h2 className="font-extrabold  g1 text-4xl">LAND OF REALM</h2>
           <p className="mt-5 text-lg text-black font-bold">
             These days People are spending more time in virtual worlds, for both
@@ -35,9 +38,7 @@ const LandOfRealm = () => {
           </p>
         </div>
 
-        <div className="right-content-about mt-[20%] md:mt-[2%] w-full">
-            <img src={img4} alt="bgimg "className="w-[100%] h-[110%] lg:w-[500px] a"  />
-        </div>
+        
       </div>
     </div>
   );

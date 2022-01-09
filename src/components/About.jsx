@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about w-full bg-[#badae9c5] h-[auto] " id="about-us">
       <div className="about-container flex flex-col md:flex-row pb-[8%]  pl-[15%] pr-[15%]  ">
-        <div className="left-content text-justify ">
+        <div className="left-content text-justify w-[50%] ">
           <h2 className="font-extrabold  g1 text-4xl">ABOUT US</h2>
           <p className="mt-5  text-lg text-black font-bold">
             These days People are spending more time in virtual worlds, for both
@@ -31,8 +31,8 @@ const About = () => {
             income and generational wealth for your family.
           </p>
         </div>
-        <div className="right-content-about mt-[20%] md:mt-[2%] w-full ">
-            <img src={img3} alt="bgimg "className="w-[100%] h-[110%] lg:w-[500px] a"  />
+        <div className="right-content-about mt-[20%] md:mt-[2%] w-[50%] lg:w-[500px]  pt-[10%]  ">
+            <img src={img3} alt="bgimg "className="w-[100%]   a"  />
         </div>
       </div>
     </div>

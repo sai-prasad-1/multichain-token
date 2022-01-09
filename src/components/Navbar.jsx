@@ -53,12 +53,12 @@ const Navbar = () => {
 
   return (
     <nav className=" flex md:justify-center w-[100vw] justify-between items-center p-4 box-shadow-down nav">
-      <div className="md:flex-[0.5] flex  justify-initial items-center">
-        <img src={logo} alt="logo" className="w-[50px]"/>
+      <div className="md:flex-[0.5] flex  justify-initial items-center md:">
+        <img src={logo} alt="logo" className="w-[40px]"/>
         <div className="logo-text flex flex-col ml-3 md:display-none">
 
-        <h2 className="logo-text uppercase text-2xl font-bold">Land of realm</h2>
-        <p className="uppercase font-thin">your virtual sweat Home</p>
+        <h2 className="logo-text uppercase text-2xl md:text-base font-bold">Land of realm</h2>
+        <p className="uppercase font-thin md:text-[10px]">your virtual sweat Home</p>
         </div>
         
 
